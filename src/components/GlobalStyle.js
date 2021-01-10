@@ -2,7 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-
+html{
+    @media (max-width: 1700px){
+        font-size: 75%;
+    }
+    
+}
 
 *{
     margin:0;
@@ -15,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 body {
     background:#1b1b1b;
     font-family: 'Inter', sans-serif;
+    overflow-x:hidden;
 
 }
 
